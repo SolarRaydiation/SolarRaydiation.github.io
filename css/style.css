@@ -1,0 +1,135 @@
+/* Just importing local fonts */
+@font-face {
+    font-family: Aileron;
+    src: url(../font/aileron-fonts/Aileron-Regular.otf);
+}
+
+@font-face{
+    font-family: Aileron;
+    src: url(../font/aileron-fonts/Aileron-Bold.otf);
+    font-weight: bold;
+}
+
+/* =========================================
+Universal styling 
+========================================== */
+body {
+    font-family: Ailreon, sans-serif;
+    margin: auto;
+}
+
+.web_banner {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    margin: auto auto;
+}
+
+/* Header and navbar styling */
+header {
+    background-color: #1c1d1d;
+    padding: 10px;
+    margin: 0px;
+
+    display: block flex;
+
+    position: sticky;
+    top: 0px;
+}
+
+header .web_banner {
+    flex: 1;
+}
+
+header navbar{
+    flex: 3;
+}
+
+header navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header navbar ul li {
+    text-align: center;
+    flex: 1;
+}
+
+header navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+header navbar ul li a:hover {
+    background-color: #383838;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1d1d;
+    padding: 30px 30px;
+    margin: 0px;
+    color: white;
+
+    display: block flex;
+}
+
+footer div {
+    line-height: 0.5;
+    flex: 1;
+}
+
+footer div .web_banner {
+    line-height: normal;
+    padding-top: 10px;
+}
+
+#copyright_notice {   
+    font-size: 20px;
+    text-align: center; 
+}
+
+footer ul {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+#socmed_links-header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.socmed_links-identifier {
+    font-weight: bold;
+}
+
+#socmed_links {
+    flex: 3;
+}
+
+#socmed_links a{
+    text-decoration: none;
+    color: white;
+}
+
+#socmed_links a:hover{
+    background-color: #383838;
+}
+
+/* 
+
+
+footer div {
+    flex: 1;
+}
+
+
+
+*/
+
